@@ -14,7 +14,6 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   List<dynamic> mahasiswa = [];
-  Map<String, dynamic> once = {};
   final TextEditingController search = TextEditingController();
   String hasilSearch = '';
 
